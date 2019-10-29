@@ -16,6 +16,8 @@
 	git init     => Initialize a local Git repository or Initialize git in a project 
 
 	git init . => create .get folder  
+	
+	git remote add origin https://github.com [repository name]
 
 	git add . => git commit to file
 
@@ -115,9 +117,10 @@
 	pwd
 	.ssh
 	ssh-keygen -t rsa -C "email"
-	ls -al 
 
 	ssh -T git@github.com  
+	
+	git clone ssh://git@github.com/[username]/[repository-name].git => Create a local copy of a remote repository
 
 	git push origin master 
 
@@ -222,8 +225,6 @@
 	git commit -m "Added files"
 
 	git push origin master 
-
-	git clone https://github.com/GhulamMustafaGM/Projects.git
 
 	git rm -r folder-name
 
