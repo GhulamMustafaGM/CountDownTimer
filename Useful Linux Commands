@@ -1,0 +1,110 @@
+cd	=> change directory
+pwd	=> print working directory
+ls	=> list 
+cd \     => root
+
+ls -l 	=> list of all directory and files
+
+whoami 
+
+su -
+
+cd ..	=> one directory back
+
+cd /etc
+
+cd /home
+
+cd /
+
+ls -l
+
+cd /var/log/samba	=> absolute path
+
+cd/var			=> relative path
+
+touch jerry 		=> Create file
+
+ls-l
+
+touch kramer	
+
+ls -ltr 	=> timely order files	
+
+cp jerry lex 	=> copy name from jerry to lex 
+
+ls -ltr 
+
+vi homer		=> vi is text editor 
+
+press shift:wq!		=> home is created
+
+ls -ltr
+
+find . -name "kramer"	=> find kramer file
+
+locte kramer		=> exctaly find it 
+
+man find 
+
+hostname
+
+touch susan
+
+pwd
+
+find . -name susan 
+
+su -
+
+updatedb 
+
+exit
+
+locate susan
+
+passwd userid	=> changing password 
+
+who am i
+
+whoami
+
+passwd
+
+WILD CARDS HOW TO WORKS
+
+rm abc*		=> remove files that start with abc names
+
+toch abcd{1..9}-xyz	=> creating nine files
+
+ls -l abc*	=> show all files with abc names
+
+rm a*	=> all gone with a files names
+
+rm *xyz		=> remove with xyz names
+
+ls -l ?bcd*	=> show all files with bcd names
+
+ls -l *[cd]* 	=> show files
+
+ls -l *[cd]* more	=> show more files
+
+ls -ltr 
+
+ls -li		=> list inode 
+
+ls -ltri 
+
+cat filename.txt	=> open file
+
+su -
+
+clear 	=> clear screen
+
+ping www.google.com
+
+yum install ImageMagick -y
+
+rpm -qa | grep ImageM	=> check to confirm install software
+
+display filename.jpeg	=> open any image files
